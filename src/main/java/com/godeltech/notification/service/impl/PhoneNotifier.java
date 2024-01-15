@@ -9,5 +9,6 @@ public class PhoneNotifier implements Notifier {
   @Override
   public void send(UserDto userDto, String message) {
     // Send via phone sms
+    log(userDto, message);
   }
 }
