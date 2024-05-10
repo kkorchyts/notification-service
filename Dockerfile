@@ -1,4 +1,4 @@
-FROM openjdk:11-alpine
+FROM openjdk:17-alpine
 ENTRYPOINT ["/usr/bin/notification-service.sh"]
 
 COPY notification-service.sh /usr/bin/notification-service.sh

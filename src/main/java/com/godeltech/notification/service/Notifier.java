@@ -10,6 +10,11 @@ public interface Notifier {
 
   default void log(final UserDto userDto, final String message) {
     System.Logger logger = System.getLogger(this.getClass().getName());
-    logger.log(INFO, "{0}.send({1}, {2})", this.getClass().getName(), "{ " + userDto.getFirstName() + ", " + userDto.getLastName() +" }", message);
+    logger.log(
+        INFO,
+        "{0}.send({1}, {2})",
+        this.getClass().getName(),
+        "{ " + userDto.getFirstName() + ", " + userDto.getLastName() + " }",
+        message);
   }
 }
