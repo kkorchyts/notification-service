@@ -9,3 +9,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
+  system: system: delivery-portal
