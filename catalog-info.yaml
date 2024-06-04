@@ -4,7 +4,6 @@ metadata:
   name: "notification-service"
   annotations:
     github.com/project-slug: kkorchyts/notification-service
-    github.com/project-cicd: https://github.com/kkorchyts/notification-service/actions
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
