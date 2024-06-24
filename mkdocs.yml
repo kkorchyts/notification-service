@@ -1,5 +1,5 @@
 site_name: "notification-service"
-site_description: 
+site_description:
 
 nav:
   - Introduction: index.md
